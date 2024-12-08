@@ -1,0 +1,15 @@
+package QA;
+
+public class SwapNo {
+	public static void main(String[] args) {
+		int a = 10, b = 20;
+		System.out.println("Before Swap of A & B is :"+a +" "+ b);
+
+		a = a ^ b;
+		b = a ^ b;
+		a = a ^ b;
+		System.out.println("After Swap of A & B is :"+a +" "+ b);
+		
+	}
+
+}
