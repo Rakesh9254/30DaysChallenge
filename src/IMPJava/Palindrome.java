@@ -8,13 +8,13 @@ public class Palindrome {
 		
 		while(start<end) {
 			if(str.charAt(start)!=str.charAt(end)) {
-				System.out.println("Not a Palindome");
+				System.out.println("Not a Palindrome");
 				return;
 			}
 			start++;
 			end--;
 		}
-		System.out.println("Palindome");
+		System.out.println("Palindrome");
 		
 	}
 
